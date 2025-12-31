@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_portfolio/models/carousel_item_model.dart';
 import 'package:my_portfolio/utils/constants.dart';
+import 'package:my_portfolio/utils/globals.dart';
 
 
 List<CarouselItemModel> carouselItems = List.generate(
@@ -90,7 +91,13 @@ List<CarouselItemModel> carouselItems = List.generate(
                 horizontal: 28.0,
               ),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Globals.scrollController.animateTo(
+                    Globals.scrollController.position.maxScrollExtent,
+                    duration: Duration(milliseconds: 800),
+                    curve: Curves.easeInOut,
+                  );
+                },
                 child: Text(
                   "GET STARTED",
                   style: TextStyle(

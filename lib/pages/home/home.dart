@@ -72,6 +72,7 @@ class Home extends StatelessWidget {
       ),
       body: Container(
         child: SingleChildScrollView(
+          controller: Globals.scrollController,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
