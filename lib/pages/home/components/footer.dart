@@ -10,27 +10,27 @@ final List<FooterItem> footerItems = [
   FooterItem(
     iconPath: "assets/mappin.png",
     title: "ADDRESS",
-    text1: "999 Carter Street",
-    text2: "Sailor Springs, IL 64234",
+    text1: "Banglaadesh",
+    text2: "Dhaka, Mirpur",
   ),
   FooterItem(
     iconPath: "assets/phone.png",
     title: "PHONE",
-    text1: "+1 618-689-9604",
-    text2: "+1 781-689-9632",
+    text1: "+8801567929931",
+    text2: "",
   ),
   FooterItem(
     iconPath: "assets/email.png",
     title: "EMAIL",
-    text1: "hello@example.com",
-    text2: "info@flutterpanda.com",
+    text1: "emtiazahmedanik4@gmail.com",
+    text2: "",
   ),
-  FooterItem(
-    iconPath: "assets/whatsapp.png",
-    title: "WHATSAPP",
-    text1: "+234 901-134-0095",
-    text2: "+234 901-134-0095",
-  )
+  // FooterItem(
+  //   iconPath: "assets/whatsapp.png",
+  //   title: "WHATSAPP",
+  //   text1: "+234 901-134-0095",
+  //   text2: "+234 901-134-0095",
+  // )
 ];
 
 class Footer extends StatelessWidget {

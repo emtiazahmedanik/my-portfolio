@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:my_portfolio/models/design_process.dart';
 import 'package:my_portfolio/utils/constants.dart';
 import 'package:my_portfolio/utils/screen_helper.dart';
@@ -68,15 +69,27 @@ class CvSection extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                onTap: () {},
+                onTap: () async {
+                  final Uri cvUrl = Uri.parse('https://drive.google.com/file/d/1XFlYTqpalZZfs3QXAW5uDP38ryLWKyGk/view');
+                  if (await canLaunchUrl(cvUrl)) {
+                    await launchUrl(cvUrl, mode: LaunchMode.externalApplication);
+                  }
+                },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
-                  child: Text(
-                    "DOWNLOAD CV",
-                    style: GoogleFonts.oswald(
+                  child: Container(
+                    padding: EdgeInsets.all(8.0),
+                    decoration: BoxDecoration(
                       color: kPrimaryColor,
-                      fontWeight: FontWeight.w900,
-                      fontSize: 16.0,
+                      borderRadius: BorderRadius.circular(8.0),
+                    ),
+                    child: Text(
+                      "DOWNLOAD CV",
+                      style: GoogleFonts.oswald(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w900,
+                        fontSize: 16.0,
+                      ),
                     ),
                   ),
                 ),

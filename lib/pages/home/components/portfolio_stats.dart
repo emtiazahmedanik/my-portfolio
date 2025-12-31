@@ -7,10 +7,10 @@ import 'package:my_portfolio/utils/screen_helper.dart';
 
 
 final List<Stat> stats = [
-  Stat(count: "43", text: "Clients"),
-  Stat(count: "68+", text: "Projects"),
-  Stat(count: "17", text: "Awards"),
-  Stat(count: "10", text: "Years\nExperience"),
+
+  Stat(count: "10+", text: "Projects"),
+
+  Stat(count: "1+", text: "Years\nExperience"),
 ];
 
 class PortfolioStats extends StatelessWidget {
@@ -39,11 +39,24 @@ class PortfolioStats extends StatelessWidget {
               runSpacing: 20.0,
               children: stats.map((stat) {
                 return Container(
+                  decoration: BoxDecoration(
+                    color: kBackgroundColor,
+                    borderRadius: BorderRadius.circular(8.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.white.withAlpha(50),
+                        blurRadius: 4.0,
+                        spreadRadius: 4.0,
+                        offset: Offset(4.0, 4.0),
+                      ),
+                    ],
+                  ),
                   padding: EdgeInsets.symmetric(vertical: 15.0),
                   // Just use the helper here really
                   width: ScreenHelper.isMobile(context)
                       ? constraint.maxWidth / 2.0 - 20
                       : (constraint.maxWidth / 4.0 - 20),
+                      
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [

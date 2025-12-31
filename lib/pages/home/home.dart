@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:my_portfolio/pages/home/components/header.dart';
 import 'package:my_portfolio/pages/home/components/carousel.dart';
 import 'package:my_portfolio/pages/home/components/cv_section.dart';
-import 'package:my_portfolio/pages/home/components/ios_app_ad.dart';
-import 'package:my_portfolio/pages/home/components/website_ad.dart';
+import 'package:my_portfolio/pages/home/components/syncUlan.dart';
+import 'package:my_portfolio/pages/home/components/simply.dart';
 import 'package:my_portfolio/pages/home/components/portfolio_stats.dart';
 import 'package:my_portfolio/pages/home/components/education_section.dart';
 import 'package:my_portfolio/pages/home/components/skill_section.dart';
@@ -83,11 +83,11 @@ class Home extends StatelessWidget {
                 height: 20.0,
               ),
               CvSection(),
-              IosAppAd(),
+              SynculanAd(),
               SizedBox(
                 height: 70.0,
               ),
-              WebsiteAd(),
+              SimplyAd(),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 28.0),
                 child: PortfolioStats(),
@@ -103,7 +103,7 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 50.0,
               ),
-              Sponsors(),
+              //Sponsors(),
               SizedBox(
                 height: 50.0,
               ),

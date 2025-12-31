@@ -9,16 +9,16 @@ import 'package:my_portfolio/utils/screen_helper.dart';
 final List<Testimonial> testimonials = [
   Testimonial(
     text:
-        "This is a testimonial text from Janny Stone. Michele is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.",
-    occupation: "Product Designer",
-    personName: "JANNY STONE",
+        "Strong Flutter developer with hands-on experience in real-time apps, Firebase backend, and modern mobile architectures.",
+    occupation: "Project Manager",
+    personName: "Client Feedback",
     profilePhoto: "assets/female.png",
   ),
   Testimonial(
     text:
-        "This is a testimonial text from Ken Williams. Michele is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.",
-    occupation: "Art Director",
-    personName: "KEN WILLIAMS",
+        "The social media application shows strong expertise in WebRTC, Socket.IO, and Flutter UI development. Smooth performance and well-handled real-time communication.",
+    occupation: "Project Manager",
+    personName: "Mobile App Case Study Feedback",
     profilePhoto: "assets/male.png",
   )
 ];
@@ -66,7 +66,7 @@ Widget _buildUi(double width) {
                     children: [
                       TextSpan(
                         text:
-                            "This is the portfolio section. There is alot of work here",
+                            "Feedback and insights from projects and collaborations, highlighting my experience in Flutter development, real-time systems, and Firebase-powered applications.",
                         style: TextStyle(color: Colors.white, height: 1.8),
                       ),
                       TextSpan(
