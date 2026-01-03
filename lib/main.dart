@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:my_portfolio/pages/home/home.dart';
 import 'package:my_portfolio/utils/constants.dart';
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 const String MOBILE = 'MOBILE';
 const String TABLET = 'TABLET';
 const String DESKTOP = 'DESKTOP';
 
 void main() {
+  setUrlStrategy(PathUrlStrategy());
   runApp(MyApp());
 }
 
