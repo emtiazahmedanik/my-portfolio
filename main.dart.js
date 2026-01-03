@@ -65987,7 +65987,7 @@ s=t.w
 r=A.at(a,p,s).w.a.a<800?B.a8:B.ao
 s=A.at(a,p,s).w.a.a<800?B.bn:B.dh
 q=t.p
-return A.d7(A.c([new A.d0(new A.aA(0,50,0,50),o,p),n,A.CU(A.c([new A.d0(new A.aA(0,0,0,8),A.b3("Copyright (c) 2021 Michele Harrington. All rights Reserved",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),p),A.ef(A.c([A.eV(p,A.dU(A.b3("Privacy Policy",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),B.am,p,p,p),B.M,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aaY(),p,p,p),A.aX(p,A.b3("|",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),B.k,p,p,p,p,p,p,new A.aA(8,0,8,0),p,p,p),A.eV(p,A.dU(A.b3("Terms & Conditions",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),B.am,p,p,p),B.M,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aaZ(),p,p,p)],q),B.I,B.bn,B.u)],q),B.I,r,p,s,B.u,0,p,p,B.aV)],q),B.L,B.A,B.u)},
+return A.d7(A.c([new A.d0(new A.aA(0,50,0,50),o,p),n,A.CU(A.c([new A.d0(new A.aA(0,0,0,8),A.b3("Copyright (c) 2026 Emtiaz Ahmed. All rights Reserved",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),p),A.ef(A.c([A.eV(p,A.dU(A.b3("Privacy Policy",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),B.am,p,p,p),B.M,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aaY(),p,p,p),A.aX(p,A.b3("|",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),B.k,p,p,p,p,p,p,new A.aA(8,0,8,0),p,p,p),A.eV(p,A.dU(A.b3("Terms & Conditions",p,p,A.bn(p,p,B.a6,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)),B.am,p,p,p),B.M,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aaZ(),p,p,p)],q),B.I,B.bn,B.u)],q),B.I,r,p,s,B.u,0,p,p,B.aV)],q),B.L,B.A,B.u)},
 $S:434}
 A.aaX.prototype={
 $1(a){var s,r=null,q=this.b.b
